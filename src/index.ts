@@ -26,7 +26,7 @@ function totlecaseName(name:string) {
 
 let startQuiz = async () => {
   let scoreNum = 0;
-  //for username
+  //* for username
   let name = await inquirer.prompt([
     {
       name: "fname",
